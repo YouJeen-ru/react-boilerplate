@@ -1,3 +1,6 @@
-require("@babel/core").transformSync("code", {
-    plugins: ["@babel/plugin-syntax-jsx"],
-});
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
+}
